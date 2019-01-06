@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    tools:context="com.example.abimanyu.waitingtrackv10.TrackingFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <EditText
+            android:layout_alignParentTop="true"
+            android:id="@+id/inputFriend"
+            android:background="#fff"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Search Your Friends..."
+            android:inputType="textVisiblePassword" />
+
+        <ListView
+            android:id="@+id/lvFriend"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/inputFriend"
+            android:layout_above="@+id/tvAddFriend"/>
+
+        <TextView
+            android:id="@+id/tvAddFriend"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/selectorbutton2"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="Add Friend"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_maps"
+        android:icon="@drawable/ic_place_black_24dp"
+        android:title="@string/maps"/>
+    <item
+        android:id="@+id/menu_tracking"
+        android:icon="@drawable/ic_directions_run_black_24dp"
+        android:title="@string/tracking"/>
+    <item
+        android:id="@+id/menu_friend"
+        android:icon="@drawable/ic_group_black_24dp"
+        android:title="@string/friend"/>
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="@string/profile"/>
+</menu>
